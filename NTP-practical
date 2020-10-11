@@ -1,0 +1,36 @@
+The Network Time Protocol (NTP) is a protocol used to synchronize computer system clock automatically over a networks. 
+The machine can have the system clock use Coordinated Universal Time (UTC) rather than local time.
+
+Maintaining accurate time on Linux systems especially servers is a important task for many reasons. For example, in a networked environment, 
+accurate timekeeping is required for accurate timestamps in packets and system logs for root-cause analysis, determining when problems occurred, and finding correlations.
+
+ntp server having 3 steps:
+installation ntp
+configuration ntp
+installation of ntp client
+
+Commands:-
+
+1-sudo apt update -y
+
+2-uname -a
+
+3-sudo apt install ntp 
+
+4 -sntp --version
+
+5-ls -lrth ntp.conf
+
+6-sudo ntpq -p
+
+7-sudo ufw allow ntp
+
+8-sudo ufw reload
+
+9-sudo ps aux|grep ntp
+
+10-sudo systemctl start ntp
+
+11-sudo systemctl status ntp
+
+12-sudo ntpq -p
