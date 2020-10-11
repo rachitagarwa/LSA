@@ -1,0 +1,27 @@
+MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. MySQL is developed, marketed and supported by MySQL AB, which is a Swedish company.
+MySQL is becoming so popular because of many good reasons −
+MySQL is released under an open-source license. So you have nothing to pay to use it.
+MySQL is a very powerful program in its own right. It handles a large subset of the functionality of the most expensive and powerful database packages.
+MySQL uses a standard form of the well-known SQL data language.
+MySQL works on many operating systems and with many languages including PHP, PERL, C, C++, JAVA, etc.
+MySQL works very quickly and works well even with large data sets.
+MySQL is very friendly to PHP, the most appreciated language for web development.
+MySQL supports large databases, up to 50 million rows or more in a table. The default file size limit for a table is 4GB, but you can increase this 
+(if your operating system can handle it) to a theoretical limit of 8 million terabytes (TB).
+MySQL is customizable. The open-source GPL license allows programmers to modify the MySQL software to fit their own specific environments.
+
+Commands:-
+
+sudo apt install -y wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+
+sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb
+
+sudo apt update
+
+sudo apt install mysql-community-server
+
+sudo systemctl enable --now mysql
+
+sudo mysql -u root -p
+
+sudo service mysqld start
